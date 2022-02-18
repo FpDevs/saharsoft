@@ -21,13 +21,13 @@
 =============================================================*/
 
 
-/* ================================================================================== 
+/* ==================================================================================
 									Fonts
 ===================================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* ================================================================================== 
+/* ==================================================================================
 										Reset Css
 ===================================================================================== */
 
@@ -40,8 +40,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -52,7 +52,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -124,7 +124,7 @@ a {
 body.bg-color2 {
 	background-color: #121318;
 }
-body.bg-color3, 
+body.bg-color3,
 .cases-section {
 	background-color: #191c26;
 }
@@ -136,9 +136,9 @@ a,
 .btn-default,
 .poly1:before,
 .btn-default2:before,
-.slick-prev, 
+.slick-prev,
 .slick-next,
-.slick-prev:before, 
+.slick-prev:before,
 .slick-next:before,
 .pft-item:before,
 .blog-thumbnail:before,
@@ -242,7 +242,7 @@ a,
 	background-repeat: no-repeat;
 	background-size: inherit;
 	background-attachment: inherit;
-	background-position: top right;	
+	background-position: top right;
 }
 .bg6 {
 	background: url(../images/bg3.png) #121318;
@@ -346,6 +346,20 @@ header .container {
 	float: left;
 	margin-top: 9px;
 }
+.logo-style{
+	display: flex;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-family: 'Muli', sans-serif;
+	align-items: center;
+	font-weight: 600;
+}
+.logo-style:hover{
+	color: white;
+}
+.logo-style img{
+ margin-right: 15px;
+}
 
 nav {
 	float: left;
@@ -364,6 +378,7 @@ nav ul li a {
 	color: #FFFFFF;
 	font-size: 18px;
 	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
 }
 .right-side-hd {
 	float: right;
@@ -772,7 +787,7 @@ header .menu-btn {
 .input-field textarea {
 	border:0;
 	border-bottom: 1px solid #393f4f;
-	padding-bottom: 5px;	
+	padding-bottom: 5px;
 	width: 100%;
 	font-family: Muli;
 	font-size: 18px;
@@ -828,10 +843,10 @@ header .menu-btn {
 }
 .counter-div.scnd-dv {
 	top: 50px;
-} 
+}
 .counter-div.frht {
 	top: 50px;
-} 
+}
 .counter-div > h2 {
 	font-family: Muli;
 	font-weight: bold;
@@ -921,11 +936,11 @@ header .menu-btn {
 }
 .pft-item:hover:before,
 .blog-page .blog_post.main:hover:before {
-	background: -webkit-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
-	background: -moz-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
-	background: -ms-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
-	background: -o-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
-	background: linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
+	background: -webkit-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
+	background: -moz-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
+	background: -ms-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
+	background: -o-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
+	background: linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
 	mix-blend-mode: soft-light;
 }
 .pft-item > img {
@@ -963,7 +978,7 @@ header .menu-btn {
 	-ms-transform: translateY(0);
 	-o-transform: translateY(0);
 	transform: translateY(0);
-} 
+}
 .pft-items .row {
 	margin: 0;
 	position: relative;
@@ -1503,7 +1518,7 @@ footer {
 	font-weight: 500;
 	font-size: 22px;
 	text-transform: capitalize;
-	color: #FFFFFF;	
+	color: #FFFFFF;
 	margin-bottom: 10px;
 }
 .team-caption > span {
@@ -1638,7 +1653,7 @@ footer {
 }
 .price-col.active .price-head {
 	background-color: #dd4142;
-} 
+}
 .price-col.active {
 	-webkit-transform: translateY(-40px);
 	-moz-transform: translateY(-40px);
@@ -1699,7 +1714,7 @@ footer {
 	font-size: 20px;
 	line-height: 130%;
 	text-transform: capitalize;
-	color: #FFFFFF;		
+	color: #FFFFFF;
 	margin-bottom: 12px;
 }
 .wk-text > p {
@@ -1708,7 +1723,7 @@ footer {
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 170%;
-	color: #A9AFC3;	
+	color: #A9AFC3;
 }
 .sv-links {
 	padding-top: 11px;
@@ -2093,7 +2108,7 @@ footer.gradient-bg {
 }
 .blog-single .blog-post.main:before {
 	display: none;
-} 
+}
 .blog-single .blog-thumbnail:before {
 	display: none;
 }
@@ -2116,7 +2131,7 @@ footer.gradient-bg {
 	font-size: 22px;
 	line-height: 150%;
 	font-family: 'Poppins';
-} 
+}
 .blog-single blockquote {
 	background-color: #111319;
 	padding: 58px 60px 45px;
@@ -2677,7 +2692,7 @@ body.no-scroll {
 }
 .responsive-mobile-menu ul ul {
 	padding: 20px;
-} 
+}
 .responsive-mobile-menu ul ul li a {
 	font-size: 14px;
 }
