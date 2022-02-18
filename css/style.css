@@ -433,9 +433,11 @@ header .menu-btn {
 /* ================ MAIN BANNER ================ */
 
 .main-banner {
-	background: url(../https://via.placeholder.com/1087x1024) #121318;
+	background: url('../images/bg.png') #121318;
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: center;
+	background-size: cover;
+
 }
 .banner-slider {
 	padding: 285px 0 163px;
