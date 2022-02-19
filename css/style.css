@@ -483,7 +483,7 @@ header .menu-btn {
 }
 .main-banner-text > h1 {
 	font-weight: 700;
-	font-size: 120px;
+	font-size: 80px;
 	line-height: 100%;
 	text-transform: capitalize;
 	color: #FFFFFF;
@@ -1293,7 +1293,7 @@ footer {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 180px;
+	width: 100px;
 	background-color: #070a11;
 	z-index: 999;
 	height: 100%;
@@ -1301,7 +1301,7 @@ footer {
 }
 .wrapper {
 	float: right;
-	width: calc(100% - 180px);
+	width: calc(100% - 100px);
 }
 .menu-btn {
 	margin-top: 70px;
