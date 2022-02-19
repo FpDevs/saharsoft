@@ -206,12 +206,12 @@ a,
 	z-index: -1;
 }
 .bg-position {
-	background-image: url(../https://via.placeholder.com/1110x1024);
+	background-image: url('../images/bg-2.png');
 	background-size: inherit;
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 50%;
 	height: 100%;
 	z-index: -1;
 	background-repeat: no-repeat;
@@ -221,7 +221,17 @@ a,
 }
 .right-position {
 	background-position: right;
-	background-image: url(../https://via.placeholder.com/1107x1064);
+	background-image: url('../images/bg-3.png');
+}
+.bg-3-right{
+	position: absolute;
+	top: 0;
+	right: 0 ;
+	width: 50%;
+	height: 100%;
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .bg3 {
 	background: url(../images/bg3.png) #121318;

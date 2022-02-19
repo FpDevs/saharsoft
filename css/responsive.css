@@ -158,7 +158,7 @@
 
 
 @media (max-width: 576px) {
-	.sec-block {padding: 90px 0;}	
+	.sec-block {padding: 90px 0;}
 	.post-title {margin-bottom: 20px;}
 	.top-footer {padding: 90px 0;}
 	.newsletter-form input {width: 300px;}
@@ -180,6 +180,13 @@
 	.blog-single blockquote {padding: 35px 25px 45px;}
 	.mg-list li {width: 100%;}
 	.counter-div.scnd-dv {top: 0;}
+	.sec-block .bg-position.left-position{
+		display: none;
+	}
+
+	.bg-3-right{
+		display: none;
+	}
 }
 
 
@@ -249,4 +256,10 @@
 	.section-head .main-banner-text.title-hd {margin-bottom: 50px;}
 	.blog-thumbnail {width: 100%;}
 	.blog-thumbnail img {width: 100%;}
+	.sec-block .bg-position.left-position{
+		display: none;
+	}
+	.bg-3-right{
+		display: none;
+	}
 }
