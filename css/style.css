@@ -386,7 +386,7 @@ nav ul li:last-child {
 nav ul li a {
 	display: inline-block;
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 14px;
 	font-family: 'Muli', sans-serif;
 	text-transform: uppercase;
 }
@@ -406,7 +406,7 @@ nav ul li a {
 	height: 60px;
 	line-height: 58px;
 	padding: 0 36px;
-	font-size: 20px;
+	font-size: 16px;
 	border:2px solid;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -483,7 +483,7 @@ header .menu-btn {
 }
 .main-banner-text > h1 {
 	font-weight: 700;
-	font-size: 80px;
+	font-size: 70px;
 	line-height: 100%;
 	text-transform: capitalize;
 	color: #FFFFFF;
@@ -2751,4 +2751,8 @@ body.no-scroll {
 	top: 10px;
 	letter-spacing: 5px;
 	padding-bottom: 15px;
+}
+
+.logo a img{
+	max-height: 35px;
 }
