@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/color.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <script src="sst/index.js"></script>
 </head>
 <body>
 
@@ -474,46 +475,6 @@
 
 </div>
 <div class="clearfix"></div>
-
-<script type="text/javascript">
-
-    import words_uz from "./sst/uz";
-    import words_ru from "./sst/ru";
-    import words_en from "./sst/en";
-
-    sst('uz')
-    alert(32135)
-
-    function sst(language) {
-        let allElements = document.getElementsByTagName('span')
-        for (let i = 0; i < allElements.length; i++) {
-            let curr_element = allElements[i]
-            if (curr_element.hasAttribute('sst')) {
-
-                translateText(curr_element, curr_element.getAttribute('sst'), language);
-            }
-
-        }
-    }
-
-    function translateText(element, key, language) {
-        console.log('element => ', element)
-        console.log('key => ', key)
-        console.log('language => ', language)
-        let word;
-        if (language == 'uz') {
-            word = words_uz[key]
-        } else if (language == 'ru') {
-            word = words_ru[key]
-        } else if (language == 'en') {
-            word = words_en[key]
-        }
-        if (word) {
-            element.innerText = word
-        }
-    }
-
-</script>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -521,5 +482,8 @@
 <script src="js/plugin/html5lightbox.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/script.js"></script>
+<script src="sst"></script>
+
+
 </body>
 </html>
