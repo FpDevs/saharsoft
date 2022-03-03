@@ -1,3 +1,20 @@
 {
-  "services": "xizmatlar"
+  "services": "Xizmatlar",
+  "projects": "Loyihalar",
+  "contact": "Aloqa",
+  "creativeIdeas": "Kreativ G'oyalar",
+  "slogan": "Biz g'oyalaringizni amalga oshiramiz va biznesingiz rivoji uchun texnologiyalar yaratamiz",
+  "aboutUs": "Biz haqimizda",
+  "aboutUsTitle": "Yosh va shijoatli mutaxassislar jamoasi",
+  "aboutUsContent": "Biz dasturlash sohasida 3 yildan ortiq tajribaga egamiz. Bizning kompaniyamizda har kuni ertalab issiq qahva va stend-ap bilan boshlanadi. Muhokama rivojlanish jarayonida muhim narsadir. Shunday qilib, yangi g'oyalar va mohirona echimlar tug'iladi. So'ng biz yangi kuch va ilhom bilan ishga kirishamiz. Biz hech qachon zerikmaymiz.",
+  "readMore": "Ko'proq o'qish",
+  "ourServices": "Bizning xizmatlar",
+  "weDoEverything": "Qo'limizdan hamma ish keladi",
+  "weDoEverythingContent": "Sizga qiziq bo'lishi mumkin bo'lgan xizmatlarimiz",
+  "webDevelopment": "Web dasturlash",
+  "appDevelopment": "Mobile dasturlash",
+  "ui/ux": "UI/UX xizmatlari",
+  "seo&smm": "SEO & SMM optimizatsiya",
+  "letsGetStarted": "Q",
+  "contactUs": "Biz bilan bog'lanish"
 }

@@ -25,8 +25,15 @@ $(document).ready(function () {
 
     function sst(language) {
         let allElements = document.getElementsByTagName('span')
+        let allDivs = document.getElementsByTagName('div')
         for (let i = 0; i < allElements.length; i++) {
             let curr_element = allElements[i]
+            if (curr_element.hasAttribute('sst')) {
+                translateText(curr_element, curr_element.getAttribute('sst'), language);
+            }
+        }
+        for (let i = 0; i < allDivs.length; i++) {
+            let curr_element = allDivs[i]
             if (curr_element.hasAttribute('sst')) {
                 translateText(curr_element, curr_element.getAttribute('sst'), language);
             }
