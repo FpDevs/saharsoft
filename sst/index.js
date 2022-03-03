@@ -4,24 +4,23 @@ $(document).ready(function () {
     setLanguage(language)
     sst(language ? language : 'en');
     let uz = document.getElementById("uz")
-    uz.onclick = function (){
-        localStorage.setItem('language','uz')
+    uz.onclick = function () {
+        localStorage.setItem('language', 'uz')
         sst('uz')
-        dropdownMenuLink.innerHTML = "<img   src=\"https://flagicons.lipis.dev/flags/4x3/uz.svg\" />";
+        dropdownMenuLink.innerHTML = "<img src=\"https://flagicons.lipis.dev/flags/4x3/uz.svg\" alt='img'/>";
     }
     let ru = document.getElementById("ru")
-    ru.onclick = function (){
-        localStorage.setItem('language','ru')
+    ru.onclick = function () {
+        localStorage.setItem('language', 'ru')
         sst('ru')
-        dropdownMenuLink.innerHTML = "<img   src=\"https://flagicons.lipis.dev/flags/4x3/ru.svg\" />"
+        dropdownMenuLink.innerHTML = "<img src=\"https://flagicons.lipis.dev/flags/4x3/ru.svg\" alt='img'/>"
     }
     let en = document.getElementById("en")
-    en.onclick = function (){
-        localStorage.setItem('language','en')
+    en.onclick = function () {
+        localStorage.setItem('language', 'en')
         sst('en')
-        dropdownMenuLink.innerHTML = "<img   src=\"https://flagicons.lipis.dev/flags/4x3/us.svg\" />"
+        dropdownMenuLink.innerHTML = "<img src=\"https://flagicons.lipis.dev/flags/4x3/us.svg\" alt='img' />"
     }
-
 
 
     function sst(language) {
@@ -41,19 +40,16 @@ $(document).ready(function () {
 
     }
 
-    function setLanguage(language){
-        switch (language){
-            case 'uz' : dropdownMenuLink.innerHTML = "<img   src=\"https://flagicons.lipis.dev/flags/4x3/uz.svg\" />";
-                console.log('uz')
-                console.log('language =>', language)
+    function setLanguage(language) {
+        switch (language) {
+            case 'uz' :
+                dropdownMenuLink.innerHTML = "<img src=\"https://flagicons.lipis.dev/flags/4x3/uz.svg\" alt='img'/>";
                 break
-            case 'ru' : dropdownMenuLink.innerHTML = "<img   src=\"https://flagicons.lipis.dev/flags/4x3/ru.svg\" />";
-                console.log('ru')
-                console.log('language =>', language)
+            case 'ru' :
+                dropdownMenuLink.innerHTML = "<img src=\"https://flagicons.lipis.dev/flags/4x3/ru.svg\" alt='img'/>";
                 break
-            case 'en' : dropdownMenuLink.innerHTML = "<img   src=\"https://flagicons.lipis.dev/flags/4x3/us.svg\" />";
-                console.log('en')
-                console.log('language =>', language)
+            case 'en' :
+                dropdownMenuLink.innerHTML = "<img src=\"https://flagicons.lipis.dev/flags/4x3/us.svg\" alt='img' />";
                 break
         }
     }
