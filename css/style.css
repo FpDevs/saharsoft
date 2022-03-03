@@ -642,7 +642,7 @@ header .menu-btn {
 	margin-bottom: 18px;
 }
 .main-banner-text.title-hd > h1 {
-	font-size: 64px;
+	font-size: 54px;
 	line-height: 110%;
 	color: #fff;
 	text-transform: capitalize;
@@ -940,19 +940,19 @@ header .menu-btn {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	/*background: -webkit-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);*/
-	/*background: -moz-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);*/
-	/*background: -ms-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);*/
-	/*background: -o-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);*/
-	/*background: linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);*/
+	background: -webkit-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 120%);
+	background: -moz-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 120%);
+	background: -ms-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 120%);
+	background: -o-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 120%);
+	background: linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 120%);
 }
 .pft-item:hover:before,
 .blog-page .blog_post.main:hover:before {
-	background: -webkit-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
-	background: -moz-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
-	background: -ms-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
-	background: -o-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
-	background: linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
+	background: -webkit-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 120%);
+	background: -moz-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 120%);
+	background: -ms-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 120%);
+	background: -o-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 120%);
+	background: linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 120%);
 	mix-blend-mode: soft-light;
 }
 .pft-item > img {
@@ -979,7 +979,7 @@ header .menu-btn {
 	font-size: 22px;
 	line-height: 130%;
 	text-transform: capitalize;
-	color: #FFFFFF;
+	color: #1A1B26;
 	margin-bottom: 21px;
 }
 .pft-item:hover .figcaption {
@@ -1534,7 +1534,7 @@ footer {
 	font-weight: 500;
 	font-size: 22px;
 	text-transform: capitalize;
-	color: #FFFFFF;
+	color: #1A1B26;
 	margin-bottom: 10px;
 }
 .team-caption > span {
