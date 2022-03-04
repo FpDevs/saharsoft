@@ -16,5 +16,15 @@
   "ui/ux": "UI/UX and Brand Identity",
   "seo&smm": "SEO & SMM Optimization",
   "letsGetStarted": "let’s get started",
+  "getFreeConsultation": "Get a free consultation",
+  "getFreeConsultationContent": "We always try to implement our creative ideas at the highest level. Tell us about your project and we will make it work.",
+  "name": "name",
+  "email": "email",
+  "message":"message",
+  "sendMessage":"Send message",
+  "satisfiedClients":"Satisfied Clients",
+  "teamMembers":"Team Members",
+  "successfulProjects":"Successful Projects",
+  "awardsWinning":"Awards Winning",
   "contactUs": "Contact us"
 }
