@@ -1,4 +1,4 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function (event) {
     let dropdownMenuLink = document.getElementById("dropdownMenuLink")
     let language = localStorage.getItem('language')
     setLanguage(language)
