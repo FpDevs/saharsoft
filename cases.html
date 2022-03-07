@@ -50,14 +50,31 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="services.html" title="">Services</a></li>
-                        <li><a href="cases.html" title="">Cases</a></li>
-                        <li><a href="contact.html" title="">Contact us</a></li>
+                        <li><a href="services.html" title=""><span sst="services"> </span></a></li>
+                        <li><a href="cases.html" title=""><span sst="projects"> </span></a></li>
+                        <li><a href="contact.html" title=""><span sst="contactUs"> </span></a></li>
                     </ul>
                 </nav>
                 <div class="right-side-hd">
                     <span>+998 91 345 01 98</span>
-                    <a href="#" title="" class="btn-default">Get a quote</a>
+                    <a class="land-btn btn dropdown-toggle" role="button" id="dropdownMenuLink"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/uz.svg" alt="img"/>
+                    </a>
+
+                    <div class="dropdown-menu" style="margin-left: 11px; background: transparent;"
+                         aria-labelledby="dropdownMenuLink">
+                        <a style="width: 20px; padding: 5px 0 0 0; background: transparent" class="dropdown-item"
+                           id="uz" href="#"><img style="max-width: 20px"
+                                                 src="https://flagicons.lipis.dev/flags/4x3/uz.svg" alt="img"/></a>
+                        <a style="width: 20px; padding: 5px 0 0 0; background: transparent" class="dropdown-item"
+                           id="en" href="#"><img style="max-width: 20px"
+                                                 src="https://flagicons.lipis.dev/flags/4x3/us.svg" alt="img"/></a>
+                        <a style="width: 20px; padding: 5px 0 0 0; background: transparent" class="dropdown-item"
+                           id="ru" href="#"><img style="max-width: 20px"
+                                                 src="https://flagicons.lipis.dev/flags/4x3/ru.svg" alt="img"/></a>
+                    </div>
+                    <a href="#" title="" class="btn-default"><span sst="contact"></span></a>
                 </div>
                 <a href="#" title="" class="menu-btn">
                     <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,8 +94,8 @@
     <section class="pager-sec text-right dark-bg pb-75">
         <div class="container-fluid">
             <ul>
-                <li><a href="#" title="">Home</a></li>
-                <li><span>Cases</span></li>
+                <li><a href="#" title=""><span sst="home"></span></a></li>
+                <li><span sst="projects"></span></li>
             </ul>
         </div>
     </section>
@@ -89,22 +106,20 @@
             <h2 class="page-number">01.</h2>
             <div class="container">
                 <div class="main-banner-text title-hd wow fadeInUp mgb-100" data-wow-delay="300ms">
-                    <span>portfolio</span>
-                    <h1>Our amazing cases <span></span></h1>
-                    <p class="bdy">You may be interested in what we can offer you. More services you can find below. We
-                        do everything at a high level.</p>
+                    <span sst="portfolio"> </span>
+                    <h1> <div sst="ourAmazingCases"></div> </h1>
+                    <p class="bdy"> <span sst="ourAmazingCasesContent"></span></p>
                 </div>
                 <section class="options">
                     <div class="option-isotop">
                         <ul id="filter" class="option-set filters-nav" data-option-key="filter">
-                            <li><a data-option-value="*" class="selected">All</a></li>
-                            <li><a data-option-value=".web-application">Web Application</a></li>
-                            <li><a data-option-value=".ui-ux">UI/UX and Brand</a></li>
-                            <li><a data-option-value=".apps">Apps</a></li>
+                            <li><a data-option-value="*" class="selected"><span sst="all"></span></a></li>
+                            <li><a data-option-value=".web-application"><span sst="webApplication"></span></a></li>
+                            <li><a data-option-value=".ui-ux"><span sst="ui/uxBrand"></span></a></li>
+                            <li><a data-option-value=".apps"><span sst="apps"></span></a></li>
                             <li><a data-option-value=".seo">SEO & SMM</a></li>
-                            <li><a data-option-value=".web">Web</a></li>
-                            <li><a data-option-value=".e-commerce">E-commerce</a></li>
-                            <li><a data-option-value=".marketing">marketing</a></li>
+                            <li><a data-option-value=".e-commerce"><span sst="ecommerceDevelopment"></span></a></li>
+                            <li><a data-option-value=".marketing"><span sst="marketing"></span></a></li>
                         </ul>
                     </div>
                 </section>
@@ -179,7 +194,7 @@
                             </div>
                         </div>
                         <div class="full-div w-100 text-center mt-70">
-                            <a href="#" title="" class="btn-default">Load more</a>
+                            <a href="#" title="" class="btn-default"><span sst="loadMore"></span></a>
                         </div>
                     </div>
                 </div>
@@ -194,10 +209,9 @@
                     <div class="col-lg-6">
                         <div class="tp-contact wow fadeInUp" data-wow-delay="300ms">
                             <div class="main-banner-text title-hd">
-                                <span>newsletter</span>
-                                <h1>be always <br/> in touch <span></span></h1>
-                                <p class="bdy">We are grateful to know you are interested in our content and services.
-                                    Subscribe</p>
+                                <span sst="newsletters">newsletter</span>
+                                <h1><div sst="beAlwaysInTouch"></div></h1>
+                                <p class="bdy"><span sst="beAlwaysInTouchContent"></span></p>
                             </div>
                             <form class="newsletter-form">
                                 <input type="email" name="email" placeholder="Email">
@@ -212,30 +226,30 @@
             <div class="bottom-footer">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="widget widget-about wow fadeInUp" data-wow-delay="300ms">
-                            <img src="images/logo.png" alt="img">
-                            <p>Copyright © 2022 SAHAR SOFT</p>
-                        </div>
+                    <div class="widget widget-about wow fadeInUp" data-wow-delay="300ms">
+                        <img src="images/logo.png" alt="img">
+                        <p>Copyright © 2022 SAHAR SOFT.</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="widget widget-para wow fadeInDown" data-wow-delay="600ms">
-                            <h3 class="widget-title">Working hours:</h3>
-                            <p>Mon - Fri: 9 am - 6 pm Sat, Sun: Holiday</p>
-                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="widget widget-para wow fadeInDown" data-wow-delay="600ms">
+                        <h3 class="widget-title"> <div sst="workingHours"> </div> </h3>
+                        <p><span sst="workingDays"></span></p>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="widget widget-para wow fadeInUp" data-wow-delay="900ms">
-                            <h3 class="widget-title">Address:</h3>
-                            <p>Tashkent, Uzbekistan</p>
-                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="widget widget-para wow fadeInUp" data-wow-delay="900ms">
+                        <h3 class="widget-title"><div sst="address"></div></h3>
+                        <p>Tashkent, Uzbekistan</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="widget widget-para wow fadeInDown" data-wow-delay="1200ms">
-                            <h3 class="widget-title">Hit us up:</h3>
-                            <span><a href="tel:+998913450198">+998 91 345 01 98</a></span>
-                            <p>info@saharsoft.uz</p>
-                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="widget widget-para wow fadeInDown" data-wow-delay="1200ms">
+                        <h3 class="widget-title"><div sst="hitUsUp"></div></h3>
+                        <span><a href="tel:+998913450198">+998 91 345 01 98</a></span>
+                        <p>info@saharsoft.uz</p>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -248,5 +262,6 @@
 <script src="js/plugin/isotope.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/script.js"></script>
+<script src="sst"></script>
 </body>
 </html>
