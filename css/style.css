@@ -1089,7 +1089,7 @@ header .menu-btn {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 25px 25px 0 30px;
+    padding: 25px 25px 25px 30px;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: translateY(30px);
