@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
 
     function translateText(element, key, language) {
-        $.getJSON('sst/' + language + '/index.json', function (data) {
+        $.getJSON('js/sst/' + language + '/index.json', function (data) {
             element.innerText = data[key]
         });
 
