@@ -549,7 +549,6 @@ header .menu-btn {
     font-weight: 700;
     font-size: 70px;
     line-height: 100%;
-    text-transform: capitalize;
     color: #FFFFFF;
     margin-bottom: 31px;
 }
@@ -728,7 +727,6 @@ header .menu-btn {
     font-size: 54px;
     line-height: 110%;
     color: #fff;
-    text-transform: capitalize;
     font-weight: 700;
     margin-bottom: 27px;
 }
@@ -1030,7 +1028,6 @@ header .menu-btn {
     font-weight: 500;
     font-size: 22px;
     line-height: 130%;
-    text-transform: capitalize;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
