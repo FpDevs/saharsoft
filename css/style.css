@@ -1076,6 +1076,11 @@ header .menu-btn {
     mix-blend-mode: soft-light;
 }
 
+.pft-item:before,
+.blog-page .blog_post.main:before {
+    border-radius: 12px;
+}
+
 .pft-item > img {
     display: block;
     width: 100%;
@@ -1084,10 +1089,10 @@ header .menu-btn {
 
 .figcaption {
     position: absolute;
-    bottom: 23px;
+    top: 0;
     left: 0;
     width: 100%;
-    padding: 50px 50px 0 50px;
+    padding: 25px 25px 0 30px;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: translateY(30px);
@@ -1102,8 +1107,7 @@ header .menu-btn {
     font-size: 22px;
     line-height: 130%;
     text-transform: capitalize;
-    color: #1A1B26;
-    margin-bottom: 21px;
+    color: #fff;
 }
 
 .pft-item:hover .figcaption {
@@ -3108,7 +3112,7 @@ body.no-scroll {
     max-height: 35px;
 }
 
-.land-btn:focus,.land-btn:active {
+.land-btn:focus, .land-btn:active {
     border: none;
     box-shadow: none;
 }
@@ -3118,10 +3122,12 @@ body.no-scroll {
     margin: 0 20px 0 -20px;
     color: white;
 }
-.land-btn:after{
+
+.land-btn:after {
     display: none;
 }
-.land-btn img{
+
+.land-btn img {
     width: 20px;
     height: 15px;
 }
