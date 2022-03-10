@@ -1,7 +1,10 @@
 document.addEventListener("DOMContentLoaded", function (event) {
     let dropdownMenuLink = document.getElementById("dropdownMenuLink")
     let language = localStorage.getItem('language')
-    setLanguage(language)
+    if (language) {
+        setLanguage(language)
+    }
+    else setLanguage('en')
     sst(language ? language : 'en');
     let uz = document.getElementById("uz")
     uz.onclick = function () {
