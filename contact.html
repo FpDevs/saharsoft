@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>CONTACT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SYSDEVS - web and mobile application development company. Development of IT systems of any level of complexity at a time convenient for you."/>
+    <meta name="description"
+          content="SYSDEVS - web and mobile application development company. Development of IT systems of any level of complexity at a time convenient for you."/>
     <meta name="author" content="SYSDEVS">
     <meta name="keywords" content=""/>
     <link rel="icon" href="images/favicon.png">
@@ -36,7 +37,7 @@
         </svg>
     </a>
     <ul class="mbl-menu">
-       <li><a href="https://wa.me/998913450198" title="">WhatsApp</a></li>
+        <li><a href="https://wa.me/998913450198" title="">WhatsApp</a></li>
         <li><a href="#" title="">Behance</a></li>
     </ul>
 </div>
@@ -122,7 +123,9 @@
                                     <img src="images/c-icon1.svg" alt="icon">
                                 </div>
                                 <div class="contact-nfo">
-                                    <h3><div sst="address"></div></h3>
+                                    <h3>
+                                        <div sst="address"></div>
+                                    </h3>
                                     <p>Tashkent, Uzbekistan</p>
                                 </div>
                             </div>
@@ -131,7 +134,9 @@
                                     <img src="images/c-icon2.svg" alt="img">
                                 </div>
                                 <div class="contact-nfo">
-                                    <h3><div sst="hitUsUp"></div></h3>
+                                    <h3>
+                                        <div sst="hitUsUp"></div>
+                                    </h3>
                                     <span><a href="tel:+998950160541">+998 95 016 05 41</a></span>
                                     <p>info@sysdevs.uz</p>
                                 </div>
@@ -141,7 +146,9 @@
                                     <img src="images/c-icon3.svg" alt="img">
                                 </div>
                                 <div class="contact-nfo">
-                                    <h3><div sst="workingHours"></div></h3>
+                                    <h3>
+                                        <div sst="workingHours"></div>
+                                    </h3>
                                     <p><span sst="workingDays"></span></p>
                                 </div>
                             </div>
@@ -151,31 +158,37 @@
                         <div class="contact-section-page">
                             <div class="main-banner-text title-hd wow fadeInUp" data-wow-delay="300ms">
                                 <span sst="contactUs"></span>
-                                <h1><div sst="sendAMessage"></div></h1>
-                                <p class="bdy"><span sst="getFreeConsultationContent"></span> </p>
+                                <h1>
+                                    <div sst="sendAMessage"></div>
+                                </h1>
+                                <p class="bdy"><span sst="getFreeConsultationContent"></span></p>
                             </div>
                             <div class="contact-form wow fadeInUp" data-wow-delay="300ms">
-                                <form method="post" action="#" id="contact-form">
+                                <form>
                                     <div class="response"></div>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <div class="input-field">
-                                                <input type="text" name="name" class="name" placeholder="Name">
+                                                <input type="text" name="name" id="name" class="name"
+                                                       placeholder="Name">
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <div class="input-field">
-                                                <input type="text" name="email" class="email" placeholder="Email">
+                                                <input type="text" name="email" id="email" class="email"
+                                                       placeholder="Email">
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="input-field">
-                                                <textarea name="message" placeholder="Message"></textarea>
+                                                <textarea name="message" id="text" placeholder="Message"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="input-field m-0">
-                                                <button type="button" class="btn-default" id="submit"><span sst="sendMessage"></span>
+                                                <button type="button" class="btn-default" id="submit"
+                                                        onclick="sendMessageToDevs()"><span
+                                                        sst="sendMessage"></span>
                                                 </button>
                                             </div>
                                         </div>
@@ -221,7 +234,9 @@
                         <div class="tp-contact wow fadeInUp" data-wow-delay="300ms">
                             <div class="main-banner-text title-hd">
                                 <span sst="newsletters">newsletter</span>
-                                <h1><div sst="beAlwaysInTouch"></div></h1>
+                                <h1>
+                                    <div sst="beAlwaysInTouch"></div>
+                                </h1>
                                 <p class="bdy"><span sst="beAlwaysInTouchContent"></span></p>
                             </div>
                             <form class="newsletter-form">
@@ -244,19 +259,25 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="widget widget-para wow fadeInDown" data-wow-delay="600ms">
-                            <h3 class="widget-title"> <div sst="workingHours"> </div> </h3>
+                            <h3 class="widget-title">
+                                <div sst="workingHours"></div>
+                            </h3>
                             <p><span sst="workingDays"></span></p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="widget widget-para wow fadeInUp" data-wow-delay="900ms">
-                            <h3 class="widget-title"><div sst="address"></div></h3>
+                            <h3 class="widget-title">
+                                <div sst="address"></div>
+                            </h3>
                             <p>Tashkent, Uzbekistan</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="widget widget-para wow fadeInDown" data-wow-delay="1200ms">
-                            <h3 class="widget-title"><div sst="hitUsUp"></div></h3>
+                            <h3 class="widget-title">
+                                <div sst="hitUsUp"></div>
+                            </h3>
                             <span><a href="tel:+998950160541">+998 95 016 05 41</a></span>
                             <p>info@sysdevs.uz</p>
                         </div>
@@ -277,6 +298,17 @@
 <script src="js/wow.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/sst/index.js"></script>
+<script src="js/util.js"></script>
+
+
+<script>
+    function sendMessageToDevs() {
+        let name = document.getElementById('name').value;
+        let email = document.getElementById('email').value;
+        let text = document.getElementById('text').value;
+        sendMessage(name, email, text)
+    }
+</script>
 
 
 </body>
