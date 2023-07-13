@@ -9,7 +9,7 @@ function sendMessage(name, email, text, modal, formBtn, close) {
         targetDiv.innerHTML = "";
         let url = "https://api.telegram.org/" +
             "bot5289934625:AAFS-aCwlhpxChv7wy2gZIAp4MgQ5abspdo" +
-            "/sendMessage?chat_id=@sysdevsinfo&text=";
+            "/sendMessage?chat_id=@saharsoft&text=";
 
         let timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
         let language = Intl.DateTimeFormat().resolvedOptions().locale;
